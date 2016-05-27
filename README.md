@@ -2,6 +2,7 @@
 Project done as the 12th grade final CS Project.
 
 The project is a half decent emulation of the linux terminal that works natively on Windows. Basic commands work fine.
+The GUI folder has a fully working secondary window that was meant to serve as a tutorial with basic instructions for a linux beginner.
 
 Please Note:
 
