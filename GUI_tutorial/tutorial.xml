@@ -1,0 +1,98 @@
+<InstructionSet>
+	<Instruction 
+		name="login"
+		ino="1"
+		command="login -n" 
+		desc="Logs you in" 
+		sec_dec="You have to enter a username and password" />
+	<Instruction 
+		name="login"
+		ino="1"
+		command="login -n" 
+		desc="Creates a new user" 
+		sec_dec="This is used to store user progress and credentials" />
+    	<Instruction 
+		name="pwd"
+		ino="2"
+		command="pwd" 
+		desc="Gives the current Directory" 
+		sec_dec="Any files listed or created will be from this directory" />
+		
+	<Instruction 
+		name="ls"
+		ino="3"
+		command="ls" 
+		desc="Shows all the files in current directory" 
+		sec_dec="Other options are ls -a, ls -t, ls -at" />
+
+	<Instruction 
+		name="mkdir"
+		ino="4"
+		command="mkdir newfolder" 
+		desc="Create a new folder inside the current directory" 
+		sec_dec="Please do not specify an existing directory" />
+
+	<Instruction 
+		name="ls -a"
+		ino="5"
+		command="ls -a" 
+		desc="Shows all the files in current directory including hidden files" 
+		sec_dec="Other options are ls -a, ls -t, ls -at" />
+
+	<Instruction 
+		name="touch"
+		ino="6"
+		command="touch new.txt" 
+		desc="Creates a new text file" 
+		sec_dec="touch can be used to create other kinds of file also" />
+
+<Instruction 
+		name="echo"
+		ino="7"
+		command="echo Hello Linux" 
+		desc="Prints Hello Linux to the console" 
+		sec_dec="echo can be used to redirect text to other streams also" />
+
+<Instruction 
+		name="echo"
+		ino="8"
+		command="echo hello > new.txt" 
+		desc="Puts hello into the text file" 
+		sec_dec="> overwrites the currently present data in the file" />
+
+<Instruction 
+		name="echo"
+		ino="9"
+		command="echo Linux >> new.txt" 
+		desc="Writes input to text file" 
+		sec_dec="The difference between > and >> is that > overwrites whereas >> appends the input" />
+
+<Instruction 
+		name="cat"
+		ino="10"
+		command="cat new.txt" 
+		desc="Reads the specified file" 
+		sec_dec="Without any additional operators it just prints to the console" />
+
+<Instruction 
+		name="clear"
+		ino="11"
+		command="clear" 
+		desc="It sure looks like a mess" 
+		sec_dec="Clears the console and gives you a clean slate" />
+
+<Instruction 
+		name="rm"
+		ino="12"
+		command="rm new.txt" 
+		desc="Deletes new.txt from filesystem" 
+		sec_dec="Do not try rm -r for your own good." />
+
+<Instruction 
+		name="man"
+		ino="13"
+		command="man [any linux command ever]" 
+		desc="Gives you the official manual page for the linux command" 
+		sec_dec="Some options are tr, users, who, tail, kill, timeout" />
+
+ </InstructionSet>
